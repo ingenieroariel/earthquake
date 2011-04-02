@@ -1,0 +1,204 @@
+[
+    {
+        "pk": 1, 
+        "model": "earthquake.rooftype", 
+        "fields": {
+            "name": "Light roofing", 
+            "description": "Light weight material such as sheet metal, metal tile, thatching/leaves"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "earthquake.rooftype", 
+        "fields": {
+            "name": "Heavy Roofing", 
+            "description": "Heavy weight roofing such as ceramic tiles, concrete slab"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "earthquake.primarystructuralsystem", 
+        "fields": {
+            "name": "URM", 
+            "description": "Unreinforced Masonry"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "earthquake.primarystructuralsystem", 
+        "fields": {
+            "name": "CM", 
+            "description": "Confined Masonry"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "earthquake.primarystructuralsystem", 
+        "fields": {
+            "name": "Timber Frame", 
+            "description": "Timber Frame"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "earthquake.primarystructuralsystem", 
+        "fields": {
+            "name": "RC", 
+            "description": "Reinforced Concrete"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "earthquake.secondarystructuralsystem", 
+        "fields": {
+            "name": "URM Infilll", 
+            "description": "Unreinforced Masonry Infill"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "earthquake.secondarystructuralsystem", 
+        "fields": {
+            "name": "CM Infill", 
+            "description": "Confined Masonry Infill"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "earthquake.secondarystructuralsystem", 
+        "fields": {
+            "name": "Stucco Infill", 
+            "description": "Padang special type with coarse wire mesh and cement stucco"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "earthquake.secondarystructuralsystem", 
+        "fields": {
+            "name": "River Stone Infill", 
+            "description": "Rounded river rocks approximately 150-300mm in diameter"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "earthquake.secondarystructuralsystem", 
+        "fields": {
+            "name": "Light Cladding", 
+            "description": "Metal, wood or other light-weight synthetic materials"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "earthquake.heighttype", 
+        "fields": {
+            "name": "Low Rise", 
+            "description": "Number of Stories < 4"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "earthquake.heighttype", 
+        "fields": {
+            "name": "Mid Rise", 
+            "description": "Number of Stories 5 - 8"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "earthquake.heighttype", 
+        "fields": {
+            "name": "High Rise", 
+            "description": "Number of Stories > 8"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "earthquake.buildingtype", 
+        "fields": {
+            "roof_type": null, 
+            "secondary_structural_system": null, 
+            "primary_structural_system": 1, 
+            "height_type": null
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "earthquake.buildingtype", 
+        "fields": {
+            "roof_type": null, 
+            "secondary_structural_system": null, 
+            "primary_structural_system": 5, 
+            "height_type": null
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "earthquake.buildingtype", 
+        "fields": {
+            "roof_type": null, 
+            "secondary_structural_system": null, 
+            "primary_structural_system": 3, 
+            "height_type": null
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "earthquake.buildingtype", 
+        "fields": {
+            "roof_type": null, 
+            "secondary_structural_system": null, 
+            "primary_structural_system": 5, 
+            "height_type": 2
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "earthquake.buildingtype", 
+        "fields": {
+            "roof_type": null, 
+            "secondary_structural_system": 3, 
+            "primary_structural_system": 4, 
+            "height_type": null
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "earthquake.buildingtype", 
+        "fields": {
+            "roof_type": null, 
+            "secondary_structural_system": 4, 
+            "primary_structural_system": 1, 
+            "height_type": null
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "earthquake.buildingtype", 
+        "fields": {
+            "roof_type": null, 
+            "secondary_structural_system": null, 
+            "primary_structural_system": 5, 
+            "height_type": 3
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "earthquake.buildingtype", 
+        "fields": {
+            "roof_type": null, 
+            "secondary_structural_system": 5, 
+            "primary_structural_system": 4, 
+            "height_type": null
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "earthquake.buildingtype", 
+        "fields": {
+            "roof_type": null, 
+            "secondary_structural_system": null, 
+            "primary_structural_system": 4, 
+            "height_type": null
+        }
+    }
+]
